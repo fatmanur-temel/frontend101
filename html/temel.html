@@ -1,0 +1,71 @@
+<!DOCTYPE html> <!-- dökümanın htmml dilinde olduğunu tarayıcıya bildirir-->
+<html lang="tr"> <!-- site içeriğinin dili -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://www.kodluyoruz.com">Kodluyoruz</a> <!-- sayfa linkleme -->
+
+    <!-- <h> etiketi yazıların başlık şeklinde yazılması için kullanılır. Bu başlık özellikleri <h1> den <h6> ya kadar kodlanmıştır. <h1> etiketi en büyük fontu ve en çok önemi bildirirken <h6> ya doğru azalma göstermektedir. -->
+
+    <!-- <strong> etiketi bir metinin arama motorlarına önemli olduğunu bildirmek için kullanılır. Kullanıldığı zaman metini kalın yapar. Eğer sadece metini kalınlaştırmak isterseniz <b> etiketini kullanabilirsiniz. -->
+
+    <h1><strog>Kodluyoruz</strog></h1> 
+
+    <br> <!-- alt satıra geçme-->
+
+    <ul> <!-- unordered list -->
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <ol> <!-- ordered list -->
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <!-- <hr> etiketi konusal bir geçişi temsil eder. Yazı yazarken yeni bir paragrafa başlamaya benzetebiliriz. Varsayılan olarak sayfaya yatay bir çizgi ekler ama bu özelliği değiştirilebilir. Bu etiket kapatılmaya ihtiyaç duymaz. -->
+
+    <!-- <p> paragraf etiketidir. Açıldığında, kapatılması gerekir. HTML'de enter işlevi yoktur. Bu yüzden eğer farklı farklı paragraflar oluşturmak istiyorsak <p> etiketini kullanırız. -->
+
+    <p>
+        <b>HTML</b> yani Hiper Metin İşaretleme Dili, web sayfalarında gördüğümüz iskelet
+        yapısını oluşturmak için kullanılan metin işaretleme dilidir.
+    </p>
+
+    <hr>
+
+    <p>
+      CSS, HTML elementlerinin çeşitli medya araçlarında nasıl ekrana
+      yansıtılacağını tanımlayan bir dildir. Tek seferde birden çok sayfa için
+      kurallar belirtebilir.
+    </p>
+
+    <hr>
+
+    <p>
+      JavaScript, HTML ve web için bir programlama dilidir. Dinamil olarak HTML
+      içeriğini ve özelliklerini, CSS'i değiştirebilme gibi işlemleri
+      gerçekleştirebilir.
+    </p>
+
+    <!-- <script> etiketi JavaScript kodlarını HTML içerisine yazabilmemizi sağlar. -->
+    <script>
+        document.write("Kodluyoruz")
+    </script>
+
+    <!-- <button> etiketini buton oluşturmak için kullanırız. Buton üzerine yazmak istediğiniz içeriği etiketin içine yazmanız yeterlidir. -->
+    <button>
+        Buton
+    </button>
+
+    <!-- Resim eklemek için<img> etiketini kullanıyoruz. <img src=”resim.jpg” alt=”açıklama yazısı” /> src="" kısmına eklemek istediğimiz görselin yolunu yani kaynağını yazmalıyız. Eğer görselimiz ve HTML dosyamız aynı klasörde ise görselin adını ve uzantısını yazmamız yeterlidir. alt="" kısmına görselin açıklamasını yazıyoruz fakat isterseniz boş bırakabilirsiniz. Bu etiket kapanmaya ihtiyaç duymaz.-->
+
+    <img src=”görseller/kodluyoruz.jpg” alt=”Kodluyoruz Bootcamp” />
+
+</body>
+</html>

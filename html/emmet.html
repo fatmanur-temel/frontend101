@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Emmet / Zen Coding</h1>
+
+    <!--
+        etiket isimlerini direkt verebiliyoruz.
+        + kardeş öğe
+        > içinde öğe
+        ^ yukarı çık ve öğe oluştur
+        * çarp -> p*3
+        lorem
+        . class
+        # id
+    -->
+
+    <!--
+        h1 ve h2 iç içe geçmediği için kardeş öğelerdir.
+        h1+h2 dediğimizde:
+    -->
+    <h1></h1>
+    <h2></h2>
+
+    <!--
+        kardeş öğe oluştururken, aynı etiketi birden fazla kez yazmamak için * kullanırız.
+        örneğin h1+p+p+p+h2+p+p yerine h1+p*3+h2+p*2 yazarız:
+    -->
+    <h1></h1>
+    <p></p>
+    <p></p>
+    <p></p>
+    <h2></h2>
+    <p></p>
+    <p></p>
+
+    <!--
+        Örneğin bir sırasız liste oluşturken > kullanabiliriz. Bu hız kazandırır.
+        5 maddeli liste oluşturmak için ul>li*5:
+    -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!--
+        Örneğin liste oluşturduktan sonra paragraf oluşturmak istiyorsak (listenin dışında) yukarı çıkmamız gerek. Bunun için de ^ kullanıyoruz.
+        ul>li*3^p+h3:
+    -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <p></p>
+    <h3></h3>
+    
+    <!--
+        HTML de hızlı yapılar oluşturmak için lorem kullanırız. Lorem ipsum latince harfler ile olşturulmuş anlamsız cümlelerdir.
+        p>lorem dersek bir adet paragraf etiketinin içinde uzun bir cümle oluşur.
+        Lorem'in kelime sayısını da belirtebiliriz: lorem4, lorem5...
+        örneğin p>lorem4
+    -->
+    <p>Lorem ipsum dolor sit.</p>
+    <!-- 
+        lorem kullandıktan sonra başka bir etiket oluşturmak istersek bir üste çıkmamız gerekir. Yoksa içinde oluşturur.
+        örneğin ul>li*3>lorem1^^p>lorem4^h3>lorem2
+    -->
+    <ul>
+        <li>Lorem.</li>
+        <li>Placeat!</li>
+        <li>Aliquid.</li>
+    </ul>
+    <p>Lorem ipsum dolor sit.</p>
+    <h3>Lorem, ipsum.</h3>
+
+    <!--
+        h3.deneme;
+        **boşluk bırakmak fark yaratır
+    -->
+    <h3 class="deneme"></h3>
+
+    <!--
+        h3#idolssun;
+    -->
+    <h3 id="idolssun"></h3>
+</body>
+</html>

@@ -1,11 +1,21 @@
 <!DOCTYPE html> <!-- dökümanın htmml dilinde olduğunu tarayıcıya bildirir-->
+
 <html lang="tr"> <!-- site içeriğinin dili -->
+
+<!-- 
+    CSS veya font gibi bilgiler genelde head içine eklenir.
+    Js dökümanları ise en alta eklenir.
+-->
 <head>
+    <!-- <meta> : Sayfamızı tanımlayan açıklamaların bulunduğu kısımdır. Sayfa açıklaması, sayfa başlığı, kullanılan karakter seti tanımlaması gibi işlemler burada tanımlanıyor.-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- <title>: Tarayıcı penceresinin sekmesindeki başlığı buradan belirtiyoruz. -->
+    <title>HTML Temel Bilgiler</title>
 </head>
+
 <body>
 
     <h1 id="header"><strong>HTML</strong></h1>
@@ -136,6 +146,24 @@
             <img src="images/1.jpg" height="200" width="200">
         </a>
     </div>
+
+    <h2>Etiketlere Ekstra Özellikler Eklemek</h2>
+    <ul>
+        <li>Tüm HTML elementleri nitelik alabilirler.</li>
+        <li>Her zaman başlangıç elemanının içine yazılır.</li>
+        <!-- <a href = ""></a> -->
+        <li>Kelimeler arasında tire işareti koyarak(html-etiketi) veya camel case(htmlEtiketi) şeklinde kullanılabilir. HTML'de genellikle - (tire) kullanılır.</li>
+        <li>Her etikete id ve class özniteliklerini ekleyebiliriz.</li>
+            <ul>
+                <li>id kullanılan etiketin kimliğini belirtir. Tektir*(unique)* yani dökümanın içindeki bir etikete yalnızca bir kez o id ismi verilebilir.</li>
+                <!-- id tek olduğu için istisna olarak id = id-name şeklinde yazarak tırnak işareti kullanmayabiliriz. -->
+                <li>class, HTML etiketinin hangi sınıfta olduğunu belirmemizi sağlar. Aynı sınıf adını birden fazla HTML etiketine verebiliriz.</li>
+                <!--
+                    <img src ="" class ="documents">
+                    <a href ="" class ="documents" ></a> 
+                -->
+            </ul>
+    </ul>
 
 </body>
 </html>

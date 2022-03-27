@@ -1,0 +1,57 @@
+.box {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    /* margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px; */
+    margin: 20px;
+    float: left; /*kutuların yerini ayarlar*/
+}
+
+.left-bar {
+    width: 200px;
+    float: left;
+}
+
+.content {
+    width: 800px;
+    float: left;
+}
+
+.container {
+    width: 1000px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* bunun aynısı şu şekilde de olabilir; */
+    margin: 0 auto 0 auto;
+    /* margin saat yönünde hareket eder. Yukarı(0), sağ(auto), aşağı(0), sol(auto). */
+    /* margin: 0 auto; */
+    /* Sadece iki tane belirtirsek de yukarı-aşağı(0) ve sağ-sol(auto) demektir. */
+}
+
+.card {
+    width: 20%;
+    float: left;
+    padding: 5%;
+    margin-right: 3%;
+    border-radius: 10px;
+}
+
+.clear {
+    clear: both;
+    /* bulunduğu yerin sağını ve solunu temizler */
+}
+
+.bg-aqua {
+    background-color: aquamarine;
+}
+
+.bg-bisque {
+    background-color: bisque;
+}
+
+.bg-brown {
+    background-color: brown;
+}

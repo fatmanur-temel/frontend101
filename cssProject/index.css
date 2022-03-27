@@ -1,24 +1,20 @@
-.tarif-bir {
+h1 {
     color: rgb(163, 28, 28);
     font-size: 50px;
 }
 
-.tarif-iki {
-    color: rgb(163, 28, 28);
-    font-size: 50px;
+h2 {
+    color: #FF8080;
+}
+h3 {
+    color: #FF8080;
 }
 
-.tarif-uc {
-    color: rgb(163, 28, 28);
-    font-size: 50px;
+ul {
+    color: #ffde58;
 }
 
-.tarif-dort {
-    color: rgb(163, 28, 28);
-    font-size: 50px;
-}
-
-.tarif-bes {
-    color: rgb(163, 28, 28);
-    font-size: 50px;
+h4 {
+    color: #C0EDA6;
+    font-size: 30px;
 }

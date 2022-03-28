@@ -1,0 +1,42 @@
+.g-box {
+    text-align: center;
+    float: none;
+}
+
+.container {
+    font-size:small ;
+    text-align: center;
+    margin: 0 5%;
+    width: 90%;
+}
+
+.s-box {
+    background-color: #EEEEEE;
+    text-align: center;
+    float: none;
+}
+
+.input {
+    clear: both;
+    width: 400px;
+}
+
+.l-box {
+    width: 100px;
+    /* margin: 0 auto 0 auto; */
+}
+
+.card {
+    float: left;
+    border: #EEEEEE;
+    width: 33.2%;
+    height: 100px;
+}
+
+.m-right {
+    margin-right: 2px;
+}
+
+.bg-blue {
+    background-color: rgb(112, 204, 194);
+}
